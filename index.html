@@ -12,7 +12,7 @@
     <!-- Cabeçalho / Menu Fixo -->
     <header>
         <a href="#hero" class="logo" aria-label="Página inicial One Biotech">
-            <img src="Imagens/logo-onebiotech.png" alt="Logo One Biotech" class="logo-header">
+            <img src="imagens/logo-onebiotech.png" alt="Logo One Biotech" class="logo-header">
         </a>
         <nav aria-label="Navegação principal">
             <a href="#hero">Quem Somos</a>
@@ -32,35 +32,82 @@
         </div>
     </section>
 
-    <!-- Seção 1: Fornecedores Representados -->
-    <section id="fornecedores" class="container">
-        <h2 class="reveal">Empresas Representadas</h2>
-        <p class="subtitulo-secao reveal">Parcerias estratégicas com fabricantes referência em suas categorias.</p>
+ <!-- Seção Fornecedores -->
+    <section id="fornecedores">
+        <h2>Empresas Representadas</h2>
+        <p class="subtitulo-secao">Parcerias estratégicas com os principais fabricantes globais de tecnologia laboratorial</p>
 
         <div class="grid-fornecedores">
-            <!-- Fornecedor 1: Eppendorf -->
-            <article class="card-fornecedor reveal">
-                <img src="Imagens/logo-eppendorf.png" alt="Logo Eppendorf" class="logo-fornecedor">
-                <h3>Eppendorf</h3>
+
+            <!-- Card 1: Eppendorf -->
+            <div class="card-fornecedor reveal">
+                <img src="imagens/logo-eppendorf.png" alt="Logo Eppendorf" class="logo-fornecedor">
                 <p class="categoria">Equipamentos e Manejo de Líquidos</p>
-                <p>Pipetas manuais e eletrônicas, micropipetas, microcentrífugas, ultracongeladores (ULT -80°C), termomixers e consumíveis originais (Eppendorf Tubes®).</p>
-            </article>
+                <p class="descricao-curta">Líder mundial em biotecnologia com soluções precisas e sustentáveis para laboratórios de pesquisa e clínicos.</p>
+                
+                <div class="destaques-container">
+                    <span class="destaques-titulo">Principais Soluções:</span>
+                    <ul class="lista-destaques">
+                        <li><strong>Manejo de Líquidos:</strong> Pipetas manuais/eletrônicas, dosadores e ponteiras originais.</li>
+                        <li><strong>Centrifugação:</strong> Microcentrífugas, centrífugas refrigeradas e rotores.</li>
+                        <li><strong>Ultracongeladores:</strong> Linha ULT (-80°C) de alta eficiência energética.</li>
+                        <li><strong>Termomixers & Termocicladores:</strong> Precisão em incubação e amplificação.</li>
+                    </ul>
+                </div>
 
-            <!-- Fornecedor 2: Veritas -->
-            <article class="card-fornecedor reveal">
-                <img src="Imagens/logo-veritas.png" alt="Logo Veritas" class="logo-fornecedor">
-                <h3>Veritas</h3>
-                <p class="categoria">Reagentes e Insumos Analíticos</p>
-                <p>Linha completa de reagentes de alta pureza, solventes, padrões analíticos e soluções químicas para controle de qualidade e pesquisa.</p>
-            </article>
+                <a href="pdf/catalogo-eppendorf.pdf" target="_blank" rel="noopener noreferrer" class="btn-card-fornecedor">
+    Ver Catálogo
+</a>
+            </div>
 
-            <!-- Fornecedor 3: IBMP -->
-            <article class="card-fornecedor reveal">
-                <img src="Imagens/logo-ibmp.png" alt="Logo IBMP" class="logo-fornecedor">
-                <h3>IBMP</h3>
+            <!-- Card 2: Veritas -->
+            <div class="card-fornecedor card-veritas reveal">
+                <img src="imagens/logo-veritas.png" alt="Logo Veritas" class="logo-fornecedor">
+                <p class="categoria">Reagentes, Biologia Molecular e Insumos Analíticos</p>
+                <p class="descricao-curta">Distribuidora oficial das principais marcas globais de reagentes de alta pureza, biologia molecular e imunologia para pesquisa avançada.</p>
+                
+                <div class="submarcas-container">
+                    <span class="submarcas-titulo">Marcas Representadas via Veritas:</span>
+                    <div class="grid-submarcas">
+                        <div class="item-submarca" title="ABM"><img src="imagens/abm-logo.png" alt="Logo ABM"></div>
+                        <div class="item-submarca" title="BPS Bioscience"><img src="imagens/bps-biosystems-logo.png" alt="Logo BPS"></div>
+                        <div class="item-submarca" title="genOway"><img src="imagens/genoway-blue-logo.png" alt="Logo genOway"></div>
+                        <div class="item-submarca" title="InvivoGen"><img src="imagens/invivogen-logo.png" alt="Logo InvivoGen"></div>
+                        <div class="item-submarca" title="Isohelix"><img src="imagens/isohelix-logo.png" alt="Logo Isohelix"></div>
+                        <div class="item-submarca" title="Logos Biosystems"><img src="imagens/logos-biosystems-logo.png" alt="Logo Logos Biosystems"></div>
+                        <div class="item-submarca" title="MCE"><img src="imagens/mce-logo.png" alt="Logo MCE"></div>
+                        <div class="item-submarca" title="Polyplus"><img src="imagens/polyplus-logo.png" alt="Logo Polyplus"></div>
+                        <div class="item-submarca" title="Synthego"><img src="imagens/synthego-logo.png" alt="Logo Synthego"></div>
+                        <div class="item-submarca" title="Zymo Research"><img src="imagens/zymo-logo.png" alt="Logo Zymo Research"></div>
+                    </div>
+                </div>
+
+                <a href="https://www.veritasbio.com.br/#marcas" target="_blank" rel="noopener noreferrer" class="btn-card-fornecedor">
+    Consultar Marcas
+</a>
+            </div>
+
+            <!-- Card 3: IBMP -->
+            <div class="card-fornecedor reveal">
+                <img src="imagens/logo-ibmp.png" alt="Logo IBMP" class="logo-fornecedor">
                 <p class="categoria">Kits de Detecção e Diagnóstico</p>
-                <p>Kits diagnósticos avançados e ensaios moleculares/sorológicos para detecção precisa e rápida de doenças e marcadores biológicos.</p>
-            </article>
+                <p class="descricao-curta">Instituto de Biologia Molecular do Paraná, referência em inovação e produção de diagnósticos para saúde pública e pesquisa.</p>
+                
+                <div class="destaques-container">
+                    <span class="destaques-titulo">Aplicações e Soluções:</span>
+                    <ul class="lista-destaques">
+                        <li><strong>Ensaios Moleculares:</strong> Kits PCR em tempo real para detecção precisa de patógenos.</li>
+                        <li><strong>Sorologia & Imunodiagnóstico:</strong> Placas e reagentes validados para alta sensibilidade.</li>
+                        <li><strong>Kits de Extração:</strong> Insumos otimizados para isolamento de DNA/RNA.</li>
+                        <li><strong>Saúde Pública:</strong> Soluções diagnósticas nacionais de alta escala e rastreabilidade.</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.ibmp.org.br/todos-os-produtos/" target="_blank" rel="noopener noreferrer" class="btn-card-fornecedor">
+    Solicitar Kit
+</a>
+            </div>
+
         </div>
     </section>
 
